@@ -1,5 +1,4 @@
 {
-    "framework": "other",
     "buildCommand": "npm run build --workspace=channels",
     "outputDirectory": "channels/dist",
     "rewrites": [
