@@ -1,6 +1,13 @@
 {
-    "outputDirectory": "channels/dist",
-    "rewrites": [
-      { "source": "/(.*)", "destination": "/root.html" }
-    ]
-  }
+  "outputDirectory": "channels/dist",
+  "rewrites": [
+    {
+      "source": "/manifest.json",
+      "destination": "/manifest.json"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/root.html"
+    }
+  ]
+}
